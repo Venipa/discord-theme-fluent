@@ -1,0 +1,8 @@
+/**
+ * @name {{name}}
+ * @author {{author.name}}
+ * @authorId {{author.discord_id}}
+ * @version {{version}}
+ * @description {{description}}
+ * @source {{repository}}
+*/

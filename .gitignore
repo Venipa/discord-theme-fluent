@@ -1,0 +1,8 @@
+dist/**/*
+!dist/*.theme.css
+
+#we dont use npm here boya
+package-lock.json
+
+# generics
+node_modules/

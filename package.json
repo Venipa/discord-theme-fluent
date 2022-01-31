@@ -1,0 +1,31 @@
+{
+  "name": "discord-fluent",
+  "displayName": "Fluent for Discord",
+  "version": "0.1.0",
+  "description": "Fluent Theme for Discord",
+  "main": "index.js",
+  "repository": "https://github.com/Venipa/discord-theme-fluent",
+  "author": {
+    "name": "Venipa",
+    "email": "admin@venipa.net",
+    "url": "https://venipa.net",
+    "discord_id": 442612628104151040
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx mix watch",
+    "build": "npx mix",
+    "production": "npx mix --production"
+  },
+  "devDependencies": {
+    "fiber": "^1.0.4",
+    "laravel-mix": "^6.0.41",
+    "node-sass": "^7.0.1",
+    "resolve-url-loader": "5.0.0",
+    "sass": "^1.49.0",
+    "sass-loader": "12.1.0",
+    "string-replace-loader": "^3.1.0",
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {}
+}

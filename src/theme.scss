@@ -1,0 +1,55 @@
+.info-1sUqUG .colorMuted-20987_:first-child:before {
+	text-transform: none;
+  content: "{{displayName}} v{{version}}";
+	display: block;
+}
+.wordmark-2u86JB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1;
+  &:after {
+    text-transform: none;
+    content: " - {{displayName}} v{{version}}";
+    display: block;
+    font-size: .625rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+}
+$primaryBackground: #121318;
+:root {
+  --brand-experiment: hsl(227, calc(var(--saturation-factor, 1)*58%), 65%) !important;
+  --brand-experiment-500: hsl(227, calc(var(--saturation-factor, 1)*58%), 65%) !important;
+  --brand-experiment-560: hsl(227, calc(var(--saturation-factor, 1)*58%), 65%) !important;
+  --brand-experiment-600: hsl(227, calc(var(--saturation-factor, 1)*55%), 62%) !important;
+  --brand-experiment-15a: hsla(227, calc(var(--saturation-factor, 1)*58%), 65%, 0.149) !important;
+  --font-display: 'Whitney' !important;
+}
+
+.theme-dark {
+  --background-primary: #{$primaryBackground} !important;
+  --background-secondary: var(--background-primary) !important;
+  --background-secondary-alt: var(--background-secondary) !important;
+  --background-tertiary: var(--background-secondary-alt) !important;
+  --background-modifier-active: var(--background-primary) !important;
+  --background-modifier-selected: var(--background-secondary-alt) !important;
+  --background-message-hover: transparent !important;
+  --background-accent: var(--background-primary) !important;
+  --background-floating: var(--background-secondary-alt) !important;
+  --scrollbar-thin-thumb: var(--background-secondary-alt) !important;
+  --scrollbar-auto-thumb: var(--background-secondary-alt) !important;
+  --scrollbar-auto-track: transparent !important;
+  --channels-default: #c2c2c2 !important;
+  --channeltextarea-background: var(--background-secondary-alt) !important;
+  --deprecated-text-input-bg: var(--background-primary) !important;
+  --text-normal: #ffffff !important;
+  --text-muted: var(--channels-default) !important;
+  --text-timestamp: #969696 !important;
+  --header-primary: var(--text-normal) !important;
+  --header-secondary: var(--channels-default) !important;
+  --interactive-active: #ffffff !important;
+  --interactive-normal: #d0d1d4 !important;
+  --interactive-hover: #eeeeee !important;
+  --highlight-color: #23262a !important;
+}
